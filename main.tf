@@ -1,5 +1,6 @@
 variable "vpc_name" {
   type    = string
+  default = "vpn-terraform"
 }
 
 resource "aws_vpc" "minha_vpc" {
